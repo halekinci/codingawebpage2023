@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body {
+	color: #fff;
+}
+.title {
+	background-color: #0634BF;
+	width: 100%;
+    height: 100%;
+}
+
+.title h1, .title h2 {
+	color: #4973F2;
+}
+
+.title h3, .title h4, .title p {
+	color: #8F9AD9;
+}
+
+.section2 {
+	background-color: #4973F2;
+	padding: 3em 6em 5em 6em;
+	
+	/*center content*/
+	margin-left: auto;
+	margin-right: auto;
+	
+	/*adjust height to fit content into box*/
+	display: block; 
+	overflow: auto;
+}
+
+.section2 a {
+	color: #fff;
+	text-decoration: none;
+	background-color: #F22E62;
+	padding: 5px;
+}
+
+.section2 a:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #0634BF;
+	padding: 5px;
+}

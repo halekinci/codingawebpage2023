@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body {
+	color: #000;
+}
+.title {
+	background-color: #000;
+	width: 100%;
+    height: 100%;
+}
+
+.title h1, .title h2 {
+	color: #A87B01;
+}
+
+.title h3, .title h4, .title p {
+	color: #EDE0BC;
+}
+
+.section2 {
+	background-color: #F1E5C1;
+	padding: 3em 6em 5em 6em;
+	
+	/*center content*/
+	margin-left: auto;
+	margin-right: auto;
+	
+	/*adjust height to fit content into box*/
+	display: block; 
+	overflow: auto;
+}
+
+.section2 a {
+	color: #EF8B1A;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.section2 a:hover {
+	color: #EF8B1A;
+	text-decoration: none;
+	font-weight: 700;
+	border-bottom: 3px solid #EF8B1A;
+}
